@@ -26,4 +26,4 @@ Pawtel provides a warm and welcoming digital space to showcase services, facilit
 Stay up to date with our progress and upcoming features!  
 Check out our Trello board for task tracking and planning:
 
-🔗 
+🔗 [Pawtel Development Trello Board](https://trello.com/b/Onm5l9In/pawteltailwind)
