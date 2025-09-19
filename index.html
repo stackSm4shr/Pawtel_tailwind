@@ -14,7 +14,7 @@
       }
     </style>
   </head>
-  <header class="bg-pawbeige">
+  <header class="container mx-auto px-4  bg-pawbeige rounded-lg shadow-lg">
     <div
       class="container mx-auto flex flex-col sm:flex-row items-center justify-between p-4"
     >
@@ -50,7 +50,7 @@
             In 2015, the world’s very first luxury pet hotel opened its doors to
             cats and dogs whose humans demanded true five‑star care. What
             started as a pioneering vision—private suites with plush beds,
-            gourmet menus, spa treatments, and round‑the‑clock wellness
+            gourmet menus, spa treatments, and round the clock wellness
             checks—set a new global standard. Now, pet hotels everywhere follow
             in its pawprints, ensuring every guest enjoys comfort, pampering,
             and playful enrichment. At Pawtel, we honor this tradition, making
@@ -88,7 +88,7 @@
         </div>
       </div>
     </section>
-    <section id="trusted" class="bg-pawbeige py-10">
+    <section id="trusted" class="container mx-auto px-4 py-12 bg-pawbeige rounded-lg shadow-lg>
       <div class="container mx-auto px-4">
         <h2 class="text-center text-xl sm:text-2xl font-semibold mb-6">
           Trusted by companies like
@@ -147,14 +147,12 @@
 
     <section id="video" class="bg-color-pawgreen text-white py-8 sm:py-12">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
-          Check out our Video:
-        </h2>
         <div class="flex justify-center">
           <video
             class="w-full max-w-md sm:max-w-2xl rounded-lg shadow-lg"
-            controls
-            playsinline
+            muted
+            autoplay
+            loop
           >
             <source src="./video/dog.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -166,182 +164,237 @@
       id="offer"
       class="container mx-auto px-4 py-12 bg-pawbeige rounded-lg shadow-lg"
     >
-      <h2
-        class="text-3xl font-bold text-[var(--color-pawgreen)] mb-4 text-center"
-      >
-        What we offer
-      </h2>
-      <p class="text-center text-lg text-gray-600 mb-8">
-        Short‑stay and long‑stay pet hotel: from a few hours to several weeks.
-        <br />
-        <span class="font-semibold">Safe · Clean · Supervised</span>
-      </p>
-      <h3 class="text-2xl font-semibold text-[var(--color-pawgreen)] mb-6">
-        Our services
-      </h3>
-      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <li class="space-y-4">
-          <figure class="overflow-hidden rounded-lg shadow-md">
+      <div class="container mx-auto px-4">
+        <h2 class="text-center text-xl sm:text-2xl font-semibold mb-6">
+          What we offer
+        </h2>
+
+        <p class="text-center text-lg text-black mb-8">
+          Short-stay and long-stay pet hotel: from a few hours to several weeks
+          <br />
+          <span class="font-semibold">Safe • Clean • Supervised</span>
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="relative rounded-xl overflow-hidden">
             <img
               src="https://plus.unsplash.com/premium_photo-1724834056013-76c09a1f80b2?q=80&w=996&auto=format&fit=crop"
               alt="Daycare & Overnight boarding"
-              class="w-full h-48 object-cover"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
             />
-          </figure>
-          <figcaption class="text-center text-xl font-medium">
-            Daycare & Overnight boarding
-          </figcaption>
-        </li>
-        <li class="space-y-4">
-          <figure class="overflow-hidden rounded-lg shadow-md">
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Daycare & Overnight boarding</div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
             <img
               src="https://plus.unsplash.com/premium_photo-1661425813953-5ebf4b53fa03?q=80&w=1740&auto=format&fit=crop"
               alt="Transport & Quarantine support"
-              class="w-full h-48 object-cover"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
             />
-          </figure>
-          <figcaption class="text-center text-xl font-medium">
-            Transport & Quarantine support
-          </figcaption>
-        </li>
-        <li class="space-y-4">
-          <figure class="overflow-hidden rounded-lg shadow-md">
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">
+                Transport & Quarantine support
+              </div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1638720340715-d8097a58cdf1?q=80&w=1740&auto=format&fit=crop"
               alt="Playtime & Socialization"
-              class="w-full h-48 object-cover"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
             />
-          </figure>
-          <figcaption class="text-center text-xl font-medium">
-            Playtime & Socialization
-          </figcaption>
-        </li>
-        <li class="space-y-4">
-          <figure class="overflow-hidden rounded-lg shadow-md">
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Playtime & Socialization</div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
             <img
               src="https://plus.unsplash.com/premium_photo-1664298612087-e0d5cc1981ed?q=80&w=1740&auto=format&fit=crop"
               alt="Medication Administration"
-              class="w-full h-48 object-cover"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
             />
-          </figure>
-          <figcaption class="text-center text-xl font-medium">
-            Medication Administration
-          </figcaption>
-        </li>
-        <li class="space-y-4">
-          <figure class="overflow-hidden rounded-lg shadow-md">
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Medication Administration</div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1611173622933-91942d394b04?q=80&w=1740&auto=format&fit=crop"
               alt="Grooming & Basic care"
-              class="w-full h-48 object-cover"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
             />
-          </figure>
-          <figcaption class="text-center text-xl font-medium">
-            Grooming & Basic care
-          </figcaption>
-        </li>
-        <li class="space-y-4">
-          <figure class="overflow-hidden rounded-lg shadow-md">
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Grooming & Basic care</div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
             <img
               src="https://plus.unsplash.com/premium_photo-1686523494944-ca32cb8ea852?q=80&w=3087&auto=format&fit=crop"
               alt="Training"
-              class="w-full h-48 object-cover"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
             />
-          </figure>
-          <figcaption class="text-center text-xl font-medium">
-            Training
-          </figcaption>
-        </li>
-      </ul>
-    </section>
-    <section id="why-us" class="container mx-auto px-4 py-12 text-white">
-      <h2 class="text-3xl font-bold mb-8 text-center">Why choose us?</h2>
-      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <li class="bg-white rounded-lg overflow-hidden shadow-lg text-gray-800">
-          <img
-            src="https://images.unsplash.com/photo-1488509082528-cefbba5ad692?q=80&w=1740&auto=format&fit=crop"
-            alt="Online booking"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Online booking</h3>
-            <p>
-              Book and manage services anytime through our website or mobile
-              app.
-            </p>
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Training</div>
+            </div>
           </div>
-        </li>
-        <li class="bg-white rounded-lg overflow-hidden shadow-lg text-gray-800">
-          <img
-            src="https://plus.unsplash.com/premium_photo-1726761692986-6bcde87fc2b8?q=80&w=3201&auto=format&fit=crop"
-            alt="Flexible feeding"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Flexible feeding</h3>
-            <p>
-              Choose between standard or natural BARF nutrition, tailored to
-              your pet’s needs.
-            </p>
-          </div>
-        </li>
-        <li class="bg-white rounded-lg overflow-hidden shadow-lg text-gray-800">
-          <img
-            src="https://plus.unsplash.com/premium_photo-1666278379770-440439b08656?q=80&w=3088&auto=format&fit=crop"
-            alt="24/7 monitoring"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">24/7 monitoring</h3>
-            <p>Round‑the‑clock care and live camera access for owners.</p>
-          </div>
-        </li>
-        <li class="bg-white rounded-lg overflow-hidden shadow-lg text-gray-800">
-          <img
-            src="https://plus.unsplash.com/premium_photo-1663040477032-0cb4ee5402bc?q=80&w=1740&auto=format&fit=crop"
-            alt="Individual care plans"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Individual care plans</h3>
-            <p>
-              Special programs for puppies, seniors, and pets with medical
-              conditions.
-            </p>
-          </div>
-        </li>
-        <li class="bg-white rounded-lg overflow-hidden shadow-lg text-gray-800">
-          <img
-            src="https://plus.unsplash.com/premium_photo-1664095841142-5e20a480df4f?q=80&w=1742&auto=format&fit=crop"
-            alt="Pick‑up & Drop‑off"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Pick‑up & Drop‑off</h3>
-            <p>
-              Convenient transport service to bring your pet safely to and from
-              the hotel.
-            </p>
-          </div>
-        </li>
-        <li class="bg-white rounded-lg overflow-hidden shadow-lg text-gray-800">
-          <img
-            src="https://images.unsplash.com/photo-1612574935301-af13ccce9258?q=80&w=1740&auto=format&fit=crop"
-            alt="Emergency support"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Emergency support</h3>
-            <p>
-              Cooperation with veterinary clinics to provide immediate medical
-              help if needed.
-            </p>
-          </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
 
-    <section id="discounts" class="bg-pawlightgreen py-10">
+    <section id="why" class="container mx-auto px-4 py-12">
+      <div class="container mx-auto px-4">
+        <h2 class="text-center text-xl sm:text-2xl font-semibold mb-6">
+          Why us?
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="relative rounded-xl overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1488509082528-cefbba5ad692?q=80&w=1740&auto=format&fit=crop"
+              alt="Online booking"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Online booking</div>
+              <div class="text-sm text-gray-700">
+                Book and manage services anytime through our website or mobile
+                app.
+              </div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1726761692986-6bcde87fc2b8?q=80&w=3201&auto=format&fit=crop"
+              alt="Flexible feeding"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Flexible feeding</div>
+              <div class="text-sm text-gray-700">
+                Choose between standard or natural BARF nutrition, tailored to
+                your pet’s needs.
+              </div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666278379770-440439b08656?q=80&w=3088&auto=format&fit=crop"
+              alt="24/7 monitoring"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">24/7 monitoring</div>
+              <div class="text-sm text-gray-700">
+                Round‑the‑clock care and live camera access for owners.
+              </div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1663040477032-0cb4ee5402bc?q=80&w=1740&auto=format&fit=crop"
+              alt="Individual care plans"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Individual care plans</div>
+              <div class="text-sm text-gray-700">
+                Special programs for puppies, seniors, and pets with medical
+                conditions.
+              </div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1664095841142-5e20a480df4f?q=80&w=1742&auto=format&fit=crop"
+              alt="Pick‑up & Drop‑off"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Pick‑up & Drop‑off</div>
+              <div class="text-sm text-gray-700">
+                Convenient transport service to bring your pet safely to and
+                from the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="relative rounded-xl overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1612574935301-af13ccce9258?q=80&w=1740&auto=format&fit=crop"
+              alt="Emergency support"
+              class="w-full h-48 md:h-56 object-cover"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div
+              class="absolute inset-x-0 bottom-4 mx-4 bg-white/95 rounded-lg shadow px-4 py-2"
+            >
+              <div class="text-xl font-bold">Emergency support</div>
+              <div class="text-sm text-gray-700">
+                Cooperation with veterinary clinics to provide immediate medical
+                help if needed.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="discounts" class="bg-pawlightgreen py-10 container mx-auto px-4  bg-pawbeige rounded-lg shadow-lg">
       <div class="container mx-auto px-4">
         <h2 class="text-center text-xl sm:text-2xl font-semibold mb-6">
           Special discounts for bundled services
@@ -402,8 +455,9 @@
         </div>
       </div>
     </section>
+    <section class="py-5"><div></div></section>
   </body>
-  <footer class="bg-pawbeige py-6">
+  <footer class="container mx-auto px-4  bg-pawbeige rounded-lg shadow-lg">
     <div
       class="container mx-auto px-4 flex flex-col items-center text-pawgreen space-y-4 md:flex-row md:justify-between md:space-y-0"
     >
@@ -428,3 +482,4 @@
     </div>
   </footer>
 </html>
+
